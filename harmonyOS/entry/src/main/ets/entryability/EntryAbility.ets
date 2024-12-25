@@ -30,7 +30,7 @@ export default class EntryAbility extends UIAbility {
   }
 
   onForeground(): void {
-    // Ability has brought to foreground
+    // Ability has brought to foreground 地毯
     hilog.info(0x0000, 'testTag', '%{public}s', 'Ability onForeground');
   }
 

@@ -27,6 +27,14 @@ static napi_value Add(napi_env env, napi_callback_info info)
 }
 
 EXTERN_C_START
+/**
+ * @brief 模块初始化函数，导出模块的导出函数
+ *
+ * @param env 运行环境
+ * @param exports 模块导出对象
+ *
+ * @return napi_value
+ */
 static napi_value Init(napi_env env, napi_value exports)
 {
     napi_property_descriptor desc[] = {
